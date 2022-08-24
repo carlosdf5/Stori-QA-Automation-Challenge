@@ -67,6 +67,7 @@ class StoryTest(unittest.TestCase):
         actions = ActionChains(self.driver)
         actions.move_to_element(element2).perform()
         time.sleep(2)
+        self.driver.save_screenshot('screenshoot.png')
         self.driver.switch_to.window(window_before)
         time.sleep(2)
 
