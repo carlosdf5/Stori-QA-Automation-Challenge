@@ -1,0 +1,7 @@
+Install Python
+Install PyCharm IDE.
+Install Python Packages
+ -selenium
+ -webdriver-manager
+ -pytest
+ -pytest-html
